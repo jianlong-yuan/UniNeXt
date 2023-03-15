@@ -1,4 +1,4 @@
-UniNeXt: Exploring A Unified Architecture for Vision Recognition
+# UniNeXt: Exploring A Unified Architecture for Vision Recognition
 
 ## Main Results on ImageNet
 
@@ -13,7 +13,6 @@ UniNeXt: Exploring A Unified Architecture for Vision Recognition
 
 ## Main Results on Downstream Tasks
 
-
 **COCO Object Detection**
 
 | backbone | Attention | Method | pretrain | lr Schd | box mAP | mask mAP |
@@ -27,11 +26,12 @@ UniNeXt: Exploring A Unified Architecture for Vision Recognition
 
 **ADE20K Semantic Segmentation (val)**
 
-| Backbone | Attention | Method | pretrain | Crop Size | Lr Schd | mIoU | mIoU (ms+flip) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Backbone  | Attention    | Method  | pretrain    | Crop Size | Lr Schd | mIoU  | mIoU (ms+flip) |
+| :---:     | :---:        | :---:   | :---:       | :---:     | :---:   | :---: | :---:          |
 | UniNeXt-T | local window | UPerNet | ImageNet-1K | 512x512 | 160K | 49.7 | 50.6 |
 | UniNeXt-S | local window | UperNet | ImageNet-1K | 512x512 | 160K | 51.0 | 51.8 |
 | UniNeXt-B | local window | UperNet | ImageNet-1K | 512x512 | 160K | 51.4 | 52.2 | 
 | UniNeXt-T | cross-shaped window | UPerNet | ImageNet-1K | 512x512 | 160K | 49.9 | - |
 | UniNeXt-S | cross-shaped window | UperNet | ImageNet-1K | 512x512 | 160K | 51.5 | - | 
 | UniNeXt-B | cross-shaped window | UperNet | ImageNet-1K | 512x512 | 160K | 51.6 | - | 
+
